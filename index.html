@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spacial Design</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="setting-box">
+        <div class="change-color">
+            <h4>Select Color</h4>
+            <ul>
+                <li data-color="#1A9CBC" class="appley"></li>
+                <li data-color="#bc1a8b"></li>
+                <li data-color="#9ACD32"></li>
+                <li data-color="#1aaebc"></li>
+                <li data-color="#df1313"></li>
+            </ul>
+        </div>
+        <div class="random-background">
+            <h4>Random Background</h4>
+            <div class="random">
+                <span data-background = "yes" class="active">Yes</span>
+                <span data-background = "no">No</span>
+            </div>
+        </div>
+        <div class="select-bollet">
+            <h4>Show Bollet</h4>
+            <div class="bollet">
+                <span data-bollet="yes" class="active">Yes</span>
+                <span data-bollet="no">No</span>
+            </div>
+        </div>
+        <div class="content">
+            <i class="fa-solid fa-gear"></i>
+        </div>
+<!-- start remove local storage button  -->
+        <div class="remove-storage">
+            <h4>Restore Setting</h4>
+            <button>Restore</button>
+        </div>
+<!-- End remove local storage button  -->
+    </div>
+    <header>
+        <div class="nav">
+            <div class="logo">
+                <span>Hea<i class="fa-solid fa-heart-pulse"></i>lthy</span>
+            </div>
+            <div class="nav-content">
+                <ul>
+                    <li class="active" data-section="header"><a href="#" data-section="header">Home</a></li>
+                    <li data-section=".about-hospital"><a href="#" data-section=".about-hospital">About</a></li>
+                    <li data-section=".our-delevary"><a href="#" data-section=".our-delevary">Delevary</a></li>
+                    <li data-section=".our-gallery"><a href="#" data-section=".our-gallery">Gallery</a></li>
+                    <li><a href="#">Doctor</a></li>
+                    <li><a href="#">Department</a></li>
+                    <div class="animation "></div>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars"></i>
+        </div>
+        <div class="intro-text">
+            <h1>Stay <span>Safe</span> Stay <span>Healthy</span></h1>
+            <p>Lorem ipsum dolor, sit amet contium, modi odit aliquam commodi perferendis!</p>
+        </div>
+    </header>
+    <!-- start nav bollet -->
+    <div class="nav-bollet">
+        <div class="content">
+            <div class="bollet" data-section="header"></div>
+            <h4>Header</h4>
+        </div>
+        <div class="content">
+            <div class="bollet" data-section=".about-hospital"></div>
+            <h4>About Hospital</h4>
+        </div>
+        <div class="content">
+            <div class="bollet" data-section=".our-delevary"></div>
+            <h4>Our Delevary</h4>
+        </div>
+        <div class="content">
+            <div class="bollet" data-section=".our-gallery"></div>
+            <h4>Our Gallery</h4>
+        </div>
+    </div>
+    <!-- End nav bollet -->
+
+    <!-- strat about hospital  -->
+    <div class="about-hospital">
+        <h2>About hospital</h2>
+        <div class="cover">
+            <div class="help">
+                <h3>What can help you with</h3>
+                <div class="our-services">
+                        <button>Find a doctor <i class="fa-solid fa-angle-right"></i></button>
+                        <button>Request appointment <i class="fa-solid fa-angle-right"></i></button>
+                        <button>Location <i class="fa-solid fa-angle-right"></i></button>
+                        <button>Services <i class="fa-solid fa-angle-right"></i></button>
+                </div>
+                    <ul>
+                        <li><a href="#">Insurance, Billing and Payments</a></li>
+                        <li><a href="#">Cost Estimates</a></li>
+                        <li><a href="">Directions & Parking</a></li>
+                        <li><a href="">Patient Gateway</a></li>
+                        <li><a href="#">Clinical Trials</a></li>
+                        <li><a href="#">International Patients</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Giving</a></li>
+                    </ul>
+            </div> 
+            <div class="covid">
+                <img src="images/city.jpg" alt="">
+                <div class="text-content">
+                    <h3>Syrian covid information</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Auente lor sit amet consectetur adipisicing elit lor sit amet
+                        Auente lor sit amet consectetur adipisicing elit lor sit amet
+                    </p>
+                    <a href="#">Lern more about covid</a>
+                </div>
+            </div>
+            <div class="family">
+                <img src="images/family.jpg" alt="">
+                <div class="text-content">
+                    <h3>Light at the end of the ivf tunnel</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quosbero.
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quosbero.
+                    </p>
+                    <a href="#">Read the lieto family story</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- start our delevary -->
+    <div class="our-delevary">
+        <h3>In the delivery of our care, through our research and within our communities, 
+            Mass General is committed to the well-being of our patients locally and globally.
+        </h3>
+        <div class="container">
+            <div class="sience">
+                <i class="fa-solid fa-microscope"></i>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit, maiores?</p>
+                <button>Learn More<i class="fa-solid fa-angle-right"></i></button>
+            </div>
+            <div class="book">
+                <i class="fa-solid fa-book"></i>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit, maiores?</p>
+                <button>Learn More<i class="fa-solid fa-angle-right"></i></button>
+            </div>
+            <div class="bulding">
+                <i class="fa-solid fa-building"></i>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit, maiores?</p>
+                <button>Learn More<i class="fa-solid fa-angle-right"></i></button>
+            </div>
+        </div>
+    </div>
+    <!-- End our delevary -->
+
+    <!-- start our gallery -->
+    <div class="our-gallery">
+        <div class="container">
+            <h2>Our Gallery</h2>
+            <div class="images-box">
+                <img src="images/photo-1.jpg" alt="Image One">
+                <img src="images/photo-2.jpg" alt="Image Two">
+                <img src="images/photo-3.jpg" alt="Image Three">
+                <img src="images/photo-4.jpg" alt="Image Four">
+                <img src="images/photo-5.jpg" alt="Image Five">
+                <img src="images/photo-6.jpg" alt="Image Six">
+                <img src="images/photo-7.jpg" alt="Image Siven">
+                <img src="images/photo-8.jpg" alt="Image Eight">
+                <img src="images/photo-9.jpg" alt="Image Nune">
+                <img src="images/photo-10.jpg" alt="Image Ten">
+            </div>
+        </div>
+    </div>
+    <!-- statr our gallery -->
+    <div class="doctors">
+        <h2>Doctors</h2>
+        <div class="container">
+            <div class="content">
+                <div class="doctor-1">
+                    <img src="images/doctor-1.jpg" alt="">
+                    <div class="text-content">
+                        <h3>John Magdi</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Perferendis error inventore mollitia, iste amet atque.
+                        </p>
+                        <button>Send a message</button>
+                    </div>
+                </div>
+                <div class="doctor-1">
+                    <img src="images/doctor-2.jpg" alt="">
+                    <div class="text-content">
+                        <h3>liza Modran</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Perferendis error inventore mollitia, iste amet atque.
+                        </p>
+                        <button>Send a message</button>
+                    </div>
+                </div>
+                <div class="doctor-1">
+                    <img src="images/doctor-3.jpg" alt="">
+                    <div class="text-content">
+                        <h3>Sara Nour</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Perferendis error inventore mollitia, iste amet atque.
+                        </p>
+                        <button>Send a message</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End our patients -->
+    <script src="script.js"></script>
+</body>
+</html>
