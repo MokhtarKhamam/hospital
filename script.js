@@ -1,8 +1,8 @@
 //start header
 let header = document.querySelector("header");
 // array of background
-let arrayOfPhoto = ["../images/photo-1.jpg", "../images/photo-2.jpg", "../images/photo-3.jpg", 
-"../images/photo-4.jpg", "../images/photo-5.jpg"];
+let arrayOfPhoto = ["./images/photo-1.jpg", "./images/photo-2.jpg", "./images/photo-3.jpg", 
+"./images/photo-4.jpg", "./images/photo-5.jpg"];
 
 //change background image
 let randomBack = document.querySelectorAll(".setting-box .random-background .random span");
